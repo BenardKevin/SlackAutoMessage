@@ -1,0 +1,47 @@
+{
+  "channel_id": "",
+  "date": "today",
+  "course_name": "",
+  "messages": [
+    {
+      "time": "09:30",
+      "text": "Bonjour à vous,\nPour rappel quant à l’examens du jour :{course}\n\nHoraires :\n12h00 - 14h00\n19h00 - 21h00\n00h00 - 02h00\n\nChoix du créneau uniquement possible jusqu’à 11h dernier délai\nSans modification de votre part, vous êtes sur le créneau de 19h par défaut !\nPour les utilisateurs de Mac :\nle navigateur Safari n’est plus supporté par l’applicatif !\nprivilégiez l’utilisation Chrome\nne pas enregistrer au format .pages qui ne sera pas accepté ! --> convertir en .doc(x) ou .pdf\n\nAu besoin :\n https://support.google.com/chrome/answer/2693767?co=GENIE.Platform%3DDesktop&hl=fr\n https://support.mozilla.org/fr/kb/gerer-permissions-camera-et-microphone\n https://support.apple.com/fr-fr/guide/mac-help/mchlf6d108da/10.15/mac/10.15\nEt pour vous enregistrer et/ou vérifier votre équipement :\nhttps://executivemaster.online.edhec.edu/course/view.php?id=171&section=7"
+    },
+    {
+      "time": "11:50",
+      "text": "L’épreuve pour le créneau avancé commence dans 10 minutes"
+    },
+    {
+      "time": "12:00",
+      "text": "Bon courage à vous!"
+    },
+    {
+      "time": "13:50",
+      "text": "hophophop il vous reste 10 minutes!"
+    },
+    {
+      "time": "14:00",
+      "text": "Il est temps de déposer votre devoir, notez que les 5 minutes supplémentaires sont 5 minutes techniques pour déposer votre devoir et non 5 minutes d’examen en plus\nSi vous avez des difficultés pour déposer votre document, merci de m’envoyer un message ou un email au support@online.edhec.edu avant 14h05"
+    },
+    {
+      "time": "17:00",
+      "text": "Bonsoir,\nPour rappel quant à l'examens du jour :{course}\n\nHoraires :\n19h00 - 21h00\n00h00 - 02h00"
+    },
+    {
+      "time": "18:50",
+      "text": "L’épreuve pour le créneau standard commence dans 10 minutes"
+    },
+    {
+      "time": "19:00",
+      "text": "Bon courage!"
+    },
+    {
+      "time": "20:50",
+      "text": "Il vous reste 10 minutes!"
+    },
+    {
+      "time": "21:00",
+      "text": "Il est temps de déposer votre devoir, notez que les 5 minutes supplémentaires sont 5 minutes techniques pour déposer votre devoir et non 5 minutes d’examen en plus\nSi vous avez des difficultés pour déposer votre document, merci de m’envoyer un email au support@online.edhec.edu avant 14h05"
+    }
+  ]
+}
