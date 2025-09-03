@@ -1,7 +1,7 @@
 import streamlit as st
-from model.message_loader import load_default_messages
-from controller.slack_controller import schedule_messages, test_slack_connection
-from view.ui import sidebar_inputs, message_inputs, preview_messages
+from message_loader import load_default_messages
+from slack_controller import schedule_messages, test_slack_connection
+from ui import sidebar_inputs, message_inputs, preview_messages
 
 def main():
     st.title("Slack Auto Message")

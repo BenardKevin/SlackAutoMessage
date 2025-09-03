@@ -2,7 +2,7 @@ import time
 import datetime
 import streamlit as st
 from slack_sdk.errors import SlackApiError
-from model.config import client
+from config import client
 
 def schedule_messages(channel_id, date, messages):
     for msg in messages:
