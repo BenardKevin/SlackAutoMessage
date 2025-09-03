@@ -11,11 +11,11 @@ def schedule_messages(channel_id, date, messages):
             ts = int(time.mktime(dt.timetuple()))
             client.chat_scheduleMessage(channel=channel_id, text=msg["text"], post_at=ts)
 
-            print(f"✅ Message scheduled at {msg['time']}: {msg['text'][:40]}...")
+            print(f"Message scheduled at {msg['time']}: {msg['text'][:40]}...")
         except SlackApiError as e:
-            print(f"❌ Slack API error: {e.response['error']}")
+            print(f"Slack API error: {e.response['error']}")
         except Exception as ex:
-            print(f"❌ Error: {ex}")
+            print(f"Error: {ex}")
 
 def send_message(channel_id, message, timestamp):
     st.info(f"{datetime.fromtimestamp(timestamp).strftime('%H:%M')} → {channel_id} : {message[:80]}...")
@@ -24,7 +24,7 @@ def test_slack_connection(channel_id):
     try:
         response = client.chat_postMessage(
             channel=channel_id,
-            text="Connexion Slack réussie depuis l'application !"
+            text="Slack connection successful from the app!"
         )
         return True, response["ts"]
     except SlackApiError as e:

@@ -17,14 +17,14 @@ def main():
     preview_messages(raw_messages, course_name)
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("Tester la connexion Slack"):
+        if st.button("Test Slack connection"):
             ok, result = test_slack_connection(channel_id)
             if ok:
-                print(f"Connexion Slack réussie !")
+                print(f"Slack connection successful!")
             else:
-                print(f"Échec de connexion : {result}")
+                print(f"Connection failure: {result}")
     with col2:
-        if st.button("Planifier les messages"):
+        if st.button("Schedule messages"):
             schedule_messages(channel_id, date, raw_messages)
 
 if __name__ == "__main__":
